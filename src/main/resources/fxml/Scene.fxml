@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="main_container" prefHeight="470.0" prefWidth="551.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mercato.LoginController">
+    <children>
+      <Label layoutX="213.0" layoutY="79.0" prefHeight="43.0" prefWidth="130.0" text="Sign In">
+         <font>
+            <Font name="Agency FB Bold" size="46.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="169.0" prefHeight="29.0" prefWidth="69.0" text="Email">
+         <font>
+            <Font name="Agency FB Bold" size="31.0" />
+         </font>
+      </Label>
+      <TextField layoutX="237.0" layoutY="172.0" prefHeight="31.0" prefWidth="234.0" />
+      <Label layoutX="85.0" layoutY="257.0" prefHeight="27.0" prefWidth="107.0" text="Password">
+         <font>
+            <Font name="Agency FB Bold" size="31.0" />
+         </font>
+      </Label>
+      <TextField layoutX="237.0" layoutY="260.0" prefHeight="31.0" prefWidth="234.0" />
+      <Button layoutX="85.0" layoutY="353.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="386.0" style="-fx-background-color: #FDD15B;" text="Sign In">
+         <font>
+            <Font name="Agency FB Bold" size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="85.0" layoutY="432.0" prefHeight="21.0" prefWidth="139.0" text="Non sei registrato ?">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="221.0" layoutY="427.0" text="Registrati ora" underline="true">
+         <font>
+            <Font name="Agency FB Bold" size="21.0" />
+         </font>
+      </Hyperlink>
+    </children>
+    
+    <stylesheets>
+        <URL value="@Login.css" />
+    </stylesheets>
+</AnchorPane>
